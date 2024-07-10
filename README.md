@@ -18,10 +18,11 @@
     git clone [repositorio]
 ```
 #### Antes de cualquier cosa hacer un Build del proyecto
-#### En el archivo appsettings.json de la capa Presentation debe cambiar ConnectionStrings, quite esta conexion y remplaza por tu base
+#### En el archivo appsettings.json de la capa Alerium.Presentation debe cambiar ConnectionStrings, quite esta conexion y remplaza por tu base
 ```bash
     "DefaultConnection": "Server=GAMA\\SQLEXPRESS;Database=AleriumTest; user=SA; password=strongPassword;TrustServerCertificate=true"
 ```
+#### Debes establecer como el proyecto de arraque sea Alerium.Presentation, para poder correr el siguiente comando
 
 #### Migrar la base de datos con EntityFramework tools en Visual Studio, Copiar comando
 ```bash
