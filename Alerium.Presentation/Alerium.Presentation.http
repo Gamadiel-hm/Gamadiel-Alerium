@@ -1,0 +1,6 @@
+@Alerium.Presentation_HostAddress = http://localhost:5239
+
+GET {{Alerium.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
